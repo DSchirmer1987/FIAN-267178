@@ -1,7 +1,7 @@
 # FIAN-267178
 
 ## Buchlinks:
-https://openbook.rheinwerk-verlag.de/javainsel/
+Java ist auch eine Insel: https://openbook.rheinwerk-verlag.de/javainsel/
 
 
 ## Download-Links:

@@ -9,4 +9,9 @@ Eclipse: https://www.eclipse.org/downloads/packages/
 
 
 # Aufgaben am Nachmittag
-
+## 23.04.2021:
+UML/UseCase/Aufgaben/Kursinformationssystem_Aufgabe.JPG
+UML/UseCase/Aufgaben/Webshop_Aufgabe.JPG
+UML/UseCase/Aufgaben/Anwendungsfall_KundenService_Aufgabe.JPG
+UML/UseCase/Aufgaben/Öko_Soft_Aufgabe.JPG
+Diese 4 Aufgaben lösen.

@@ -1,3 +1,5 @@
+package sum;
+
 public class SumTemplate {
 	public static void main(String[] args) {
 	// Deklaration der Variablen

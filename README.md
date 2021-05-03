@@ -9,8 +9,8 @@ Eclipse: https://www.eclipse.org/downloads/packages/
 
 
 # Aufgaben am Nachmittag
-## 26.04.2021:
+## 03.05.2021:
 **Lösen der folgenden Aufgaben:**
-* UML/UseCase/Aufgaben/Sportsoft_Aufgabe.JPG  
-* UML/UseCase/Aufgaben/Mitarbeiterverwaltungssystem_Aufgabe.JPG  
+* Tag_01/Aufgaben/Nachmittag/Aufgaben_Produkt.pdf  
+* Tag_01/Aufgaben/Nachmittag/Aufgaben_Quadrat.pdf    
 

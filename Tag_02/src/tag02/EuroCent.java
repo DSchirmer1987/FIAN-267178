@@ -9,12 +9,15 @@ public class EuroCent {
 		int eingabe, cent, euro;
 		
 		// Den Scanner zum einlesen einbinden
-		Scanner scanner = new Scanner(System.in);
+//		Scanner scanner = new Scanner(System.in);
 		
 		System.out.println("Bitte eine Cent-Anzahl eingeben: ");
 		
 		// Eingabe des Users lesen und speichern
-		eingabe = scanner.nextInt();
+//		eingabe = scanner.nextInt();
+		
+		// Scanner erstellen und wert einlesen in einem Schritt
+		eingabe = new Scanner(System.in).nextInt();
 		
 		// Berechnen der ganzen Euros
 		euro = eingabe / 100;

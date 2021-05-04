@@ -18,7 +18,7 @@ public class DemoStrings {
 		System.out.println("Anna".compareTo("Bertha"));
 		System.out.println("Bertha".compareTo("Anna"));
 		System.out.println("Anna".compareTo("Xavier"));
-		
+		System.out.println("Anna".compareToIgnoreCase("xavier"));
 		System.out.println('x' - 'a');
 	}
 

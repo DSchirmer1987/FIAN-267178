@@ -9,8 +9,10 @@ Eclipse: https://www.eclipse.org/downloads/packages/
 
 
 # Aufgaben am Nachmittag
-## 03.05.2021:
+## 04.05.2021:
 **Lösen der folgenden Aufgaben:**
-* Tag_01/Aufgaben/Nachmittag/Aufgaben_Produkt.pdf  
-* Tag_01/Aufgaben/Nachmittag/Aufgaben_Quadrat.pdf    
+* Tag_02/Aufgaben/Nachmittag/Berechnung_Verzweigungen_01.pdf  
+* Tag_02/Aufgaben/Nachmittag/Berechnung_Verzweigungen_02.pdf 
+* Tag_02/Aufgaben/Nachmittag/Berechnung_Verzweigungen_03.pdf 
+* Tag_02/Aufgaben/Nachmittag/Berechnung_Verzweigungen_04.pdf    
 

@@ -9,7 +9,7 @@ public class EuroCent {
 		int eingabe, cent, euro;
 		
 		// Den Scanner zum einlesen einbinden
-//		Scanner scanner = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 		
 		System.out.println("Bitte eine Cent-Anzahl eingeben: ");
 		

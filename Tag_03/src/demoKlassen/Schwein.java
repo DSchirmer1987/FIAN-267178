@@ -1,8 +1,22 @@
 package demoKlassen;
 
 public class Schwein {
-	public String name;
-	public int alter;
+	private String name;
+	private int alter;
+	
+	// Getter + Setter für jedes Attribut
+	public String getName() {
+		return this.name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getAlter() {
+		return alter;
+	}
+	public void setAlter(int alter) {
+		this.alter = alter;
+	}
 	
 	// Default Konstruktor
 	public Schwein() {
@@ -20,6 +34,11 @@ public class Schwein {
 	public Schwein(Schwein schwein) {
 		this.name = schwein.name;
 		this.alter = schwein.alter;
+	}
+	
+	@Override
+	public String toString() {
+		return "Schwein [name=" + name + ", alter=" + alter + "]";
 	}
 	
 	public void oink() {

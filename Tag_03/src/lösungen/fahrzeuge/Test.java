@@ -13,6 +13,9 @@ public class Test {
 		// nur Defaultkonstruktor
 		// MotorVehicle mv3 = new MotorVehicle();
 		
+		werk1 = null;
+//		mv1.setToAdresse(null);
+		
 		// Ausgabe der Fahrzeugdaten
 		System.out.println();
 		mv1.print();

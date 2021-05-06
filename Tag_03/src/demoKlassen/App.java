@@ -6,6 +6,7 @@ public class App {
 		Schwein schwein1 = new Schwein();
 		Schwein schwein2 = new Schwein("Horst", 5);
 		Schwein schwein3 = new Schwein(schwein2);
+
 		
 		schwein3.setName("Gandalf");
 		

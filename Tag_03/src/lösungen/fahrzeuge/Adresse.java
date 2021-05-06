@@ -12,7 +12,6 @@ public class Adresse {
 	}
 
 	public Adresse(String vorname, String nachname, String strasse, int hausnummer, int plz, String ort) {
-		super();
 		this.vorname = vorname;
 		this.nachname = nachname;
 		this.strasse = strasse;

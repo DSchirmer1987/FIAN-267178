@@ -19,7 +19,7 @@ public class DemoArrayList {
 		System.out.println(liste.get(0));
 		System.out.println(liste);
 		
-		ArrayList<Integer> zahlenListe = new ArrayList();
+		ArrayList<Integer> zahlenListe = new ArrayList<Integer>();
 		zahlenListe.add(1);
 		zahlenListe.add(565);
 		zahlenListe.add(566);

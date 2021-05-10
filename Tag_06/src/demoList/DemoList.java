@@ -22,9 +22,13 @@ public class DemoList {
 		System.out.println(zL2);
 		
 		zL2.set(5, 42);
+		zL2.remove(10);
 		
 		System.out.println(zL2);
 		System.out.println(zahlenListe);
+		
+		System.out.println(zL2.size());
+		System.out.println(zL2.get(10));
 	}
 
 }

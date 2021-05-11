@@ -3,6 +3,8 @@ package enumAufgabe;
 public class AufgabeEnum {
 	
 	/*
+	 * 
+	 * 
 
 	#Aufgabe 'Enums - Hunderassen'
 	- Btte definieren Sie eine Enum-Klasse 'Hunderasse' mit drei Konstanten

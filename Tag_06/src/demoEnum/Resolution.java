@@ -5,6 +5,8 @@ public enum Resolution {
 	
 	private final int height;
 	private final int width;
+	
+	
 
 	Resolution(int width, int height) {
 		this.height = height;

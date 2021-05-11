@@ -8,7 +8,8 @@ public class TicketautomatGK {
 		while(true) {
 		OutputDisplay.showMenu();
 
-		int choice = OptionCall.menuChoice();
+//		int choice = OptionCall.menuChoice();
+		int choice = aufgabeKaffeeautomatGK.OptionCall.menuChoice();
 		
 		// extra for control of status always ready after use
 		if(choice == -1) {

@@ -12,6 +12,7 @@ class Pkw extends Fahrzeug {
 	}
 
 	public void print() {
+		System.out.println("\nFahrzeugtyp : " + fahrzeugtyp);
 		super.print();
 		System.out.println("Modellbezeichnung : " + modellBezeichnung);
 	}

@@ -21,7 +21,7 @@ public class PKW extends AKraftfahrzeug{
 	@Override
 	public String toString() {
 		return "PKW [getHersteller()=" + getHersteller() + ", getAnzahlRaeder()=" + getAnzahlRaeder()
-				+ ", getLackFarbe()=" + getLackFarbe() + "]";
+				+ ", getLackFarbe()=" + getLackFarbe() + "]" + PI;
 	}
 
 	@Override

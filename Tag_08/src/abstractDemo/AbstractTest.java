@@ -11,7 +11,8 @@ public class AbstractTest {
 		
 		// Nicht möglich, da abstract
 //		AKraftfahrzeug AKF2 = new AKraftfahrzeug();
-
+		
+		System.out.println(pkw1);
 	}
 
 }

@@ -1,6 +1,6 @@
 package abstractDemo.KFZ;
 
-public abstract class AKraftfahrzeug {
+public abstract class AKraftfahrzeug implements IDrivable{
 	private String hersteller;
 	private int anzahlRaeder;
 	private String lackFarbe;
@@ -44,5 +44,19 @@ public abstract class AKraftfahrzeug {
 	
 	public abstract void bewegen();
 	public abstract void hupen();
+
+	@Override
+	public void backwards() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void forward() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
 	
 }

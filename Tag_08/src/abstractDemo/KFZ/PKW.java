@@ -23,6 +23,20 @@ public class PKW extends AKraftfahrzeug{
 		return "PKW [getHersteller()=" + getHersteller() + ", getAnzahlRaeder()=" + getAnzahlRaeder()
 				+ ", getLackFarbe()=" + getLackFarbe() + "]";
 	}
+
+	@Override
+	public void drive() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void stop() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
 	
 
 }

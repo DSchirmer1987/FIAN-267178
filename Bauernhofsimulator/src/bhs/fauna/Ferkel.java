@@ -1,4 +1,4 @@
-package bhs;
+package bhs.fauna;
 
 public class Ferkel extends Schwein {
 	private String ohrengroesse;

@@ -1,5 +1,7 @@
 package bhs;
 
+import bhs.fauna.Lamm;
+
 public class BHSTest {
 
 	public static void main(String[] args) {

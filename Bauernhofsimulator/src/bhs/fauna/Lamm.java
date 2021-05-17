@@ -1,4 +1,4 @@
-package bhs;
+package bhs.fauna;
 
 public class Lamm extends Schaf {
 	private String augenfarbe;

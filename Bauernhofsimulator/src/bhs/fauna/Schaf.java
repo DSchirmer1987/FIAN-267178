@@ -1,6 +1,6 @@
-package bhs;
+package bhs.fauna;
 
-public class Schwein {
+public class Schaf {
 	private String name;
 	private String farbe;
 	private double gewicht;
@@ -14,7 +14,7 @@ public class Schwein {
 	}
 	*/
 		
-	public Schwein() {
+	public Schaf() {
 		// Konstruktor-Aufruf im Konstruktor
 		this("Freddy", "Blau", 30.5);
 	}
@@ -24,7 +24,7 @@ public class Schwein {
 	 * @param farbe
 	 * @param gewicht
 	 */
-	public Schwein(String name, String farbe, double gewicht) {
+	public Schaf(String name, String farbe, double gewicht) {
 		super();
 		this.name = name;
 		this.farbe = farbe;
@@ -57,7 +57,7 @@ public class Schwein {
 
 	@Override
 	public String toString() {
-		return "Schwein [name=" + name + ", farbe=" + farbe + ", gewicht=" + gewicht + "]";
+		return "Schaf [name=" + name + ", farbe=" + farbe + ", gewicht=" + gewicht + "]";
 	}
 	
 

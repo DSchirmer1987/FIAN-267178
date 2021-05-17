@@ -1,4 +1,6 @@
-package bhs.fauna;
+package bhs.fauna.herbivoren;
+
+import bhs.fauna.ATier;
 
 public class Schwein extends ATier{
 	/*
@@ -32,6 +34,12 @@ public class Schwein extends ATier{
 
 	@Override
 	public void machGeraeusch() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void wirdGefressen() {
 		// TODO Auto-generated method stub
 		
 	}

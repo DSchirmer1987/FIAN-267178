@@ -1,13 +1,13 @@
 package bhs.fauna;
 
-import bhs.flora.APflanze;
+import bhs.IFressbar;
 
 /**
  * 
  * @author Berliner
  * An abstract version of an animal
  */
-public abstract class ATier {
+public abstract class ATier implements IFressbar{
 	private String name;
 	private String farbe;
 	private double gewicht;
@@ -48,8 +48,11 @@ public abstract class ATier {
 		this.gewicht = gewicht;
 	}
 	
-	public void fressen(APflanze nahrung){
-		nahrung.wirdGefressen();
+	public void fressen(IFressbar nahrung){
+		if(nahrung != this) {
+			System.out.println("Ja");
+			nahrung.wirdGefressen();
+		}
 	}
 	
 	public abstract void machGeraeusch();

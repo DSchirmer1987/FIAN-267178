@@ -1,8 +1,9 @@
 package bhs;
 
 import bhs.fauna.ATier;
-import bhs.fauna.Kuh;
-import bhs.fauna.Lamm;
+import bhs.fauna.carnivoren.Tiger;
+import bhs.fauna.herbivoren.Kuh;
+import bhs.fauna.herbivoren.Lamm;
 
 public class BHSTest {
 
@@ -14,6 +15,9 @@ public class BHSTest {
 		
 		System.out.println(k1);
 		System.out.println(k2);
+		
+		Tiger t1 = new Tiger();
+		t1.fressen(t1);
 	}
 
 }

@@ -1,6 +1,8 @@
 package bhs.flora;
 
-public abstract class APflanze {
+import bhs.IFressbar;
+
+public abstract class APflanze implements IFressbar{
 	private boolean ortsgebunden;
     private String bluetenfarbe;
     private String fortpflanzungsorgane;
@@ -45,6 +47,4 @@ public abstract class APflanze {
 		return "APflanze [ortsgebunden=" + ortsgebunden + ", bluetenfarbe=" + bluetenfarbe + ", fortpflanzungsorgane="
 				+ fortpflanzungsorgane + "]";
 	}
-	
-	public abstract void wirdGefressen();
 }

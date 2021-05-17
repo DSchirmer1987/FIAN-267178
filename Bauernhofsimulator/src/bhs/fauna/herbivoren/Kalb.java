@@ -1,4 +1,4 @@
-package bhs.fauna;
+package bhs.fauna.herbivoren;
 
 public class Kalb extends Kuh {
 	private double fleckengroesse;

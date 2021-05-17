@@ -1,4 +1,4 @@
-package oepnvKG;
+package oepnvKB;
 
 public abstract class Verkehrsmittel {
 	private int linie;

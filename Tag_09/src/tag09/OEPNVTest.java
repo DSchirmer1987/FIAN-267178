@@ -1,7 +1,7 @@
 package tag09;
 
-import oepnvKG.Bus;
-import oepnvKG.S_Bahn;
+import oepnvKB.Bus;
+import oepnvKB.S_Bahn;
 
 public class OEPNVTest {
 

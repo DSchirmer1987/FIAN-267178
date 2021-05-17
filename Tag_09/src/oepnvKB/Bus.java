@@ -1,4 +1,4 @@
-package oepnvKG;
+package oepnvKB;
 
 public class Bus extends Verkehrsmittel {
 

@@ -1,4 +1,4 @@
-package oepnvKG;
+package oepnvKB;
 
 public class S_Bahn extends Verkehrsmittel {
 

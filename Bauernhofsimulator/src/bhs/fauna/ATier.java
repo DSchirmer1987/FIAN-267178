@@ -56,4 +56,23 @@ public abstract class ATier implements IFressbar{
 	}
 	
 	public abstract void machGeraeusch();
+
+	@Override
+	public void wirdGefressen() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if(obj instanceof ATier) {
+			ATier tier = (ATier)obj;
+			return this.name.equals(tier.name);
+		} else {
+			return false;
+		}
+
+	}
+	
+	
 }

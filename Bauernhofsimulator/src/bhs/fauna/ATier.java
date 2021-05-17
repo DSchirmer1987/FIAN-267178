@@ -65,13 +65,17 @@ public abstract class ATier implements IFressbar{
 
 	@Override
 	public boolean equals(Object obj) {
+		boolean tmp = false;
 		if(obj instanceof ATier) {
 			ATier tier = (ATier)obj;
-			return this.name.equals(tier.name);
-		} else {
-			return false;
+			if(this.name.equals(tier.name)) {
+				tmp = true;
+			}
+			if(this.gewicht == tier.gewicht) {
+				tmp = true;
+			}				
 		}
-
+		return tmp;
 	}
 	
 	

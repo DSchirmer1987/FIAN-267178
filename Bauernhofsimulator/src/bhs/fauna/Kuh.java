@@ -1,10 +1,6 @@
 package bhs.fauna;
 
-public class Kuh {
-	private String name;
-	private String farbe;
-	private double gewicht;
-	
+public class Kuh extends ATier{
 	/*
 	 * Init-Block
 	 * Wird bei jeder Erzeugung ausgeführt
@@ -25,45 +21,18 @@ public class Kuh {
 	 * @param gewicht
 	 */
 	public Kuh(String name, String farbe, double gewicht) {
-		super();
-		this.name = name;
-		this.farbe = farbe;
-		this.gewicht = gewicht;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public String getFarbe() {
-		return farbe;
-	}
-
-	public void setFarbe(String farbe) {
-		this.farbe = farbe;
-	}
-
-	public double getGewicht() {
-		return gewicht;
-	}
-
-	public void setGewicht(double gewicht) {
-		this.gewicht = gewicht;
+		super(name, farbe, gewicht);
 	}
 
 	@Override
 	public String toString() {
-		return "Kuh [name=" + name + ", farbe=" + farbe + ", gewicht=" + gewicht + "]";
+		return "Kuh [name=" + super.getName() + ", farbe=" + super.getFarbe() + ", gewicht=" + super.getGewicht() + "]";
 	}
-	
 
-
-	
-	
-	
+	@Override
+	public void machGeraeusch() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }

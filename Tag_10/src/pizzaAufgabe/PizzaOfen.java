@@ -30,6 +30,9 @@ public class PizzaOfen {
 		
 		one = new Munchy();
 		
+		
+		System.out.println(Math.PI);
+		
 	}
 
 }

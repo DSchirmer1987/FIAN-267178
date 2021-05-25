@@ -1,9 +1,11 @@
 package oopDemo;
 
+import java.util.Iterator;
 import java.util.Scanner;
 
-public class Calculator {
+public class Calculator{
 	int x, y;
+	
 	
 	public Calculator(int x, int y) {
 		this.x = x;

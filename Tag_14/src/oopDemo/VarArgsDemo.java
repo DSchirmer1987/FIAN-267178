@@ -8,6 +8,7 @@ public class VarArgsDemo {
 	}
 	
 	// Methode mit Var Args - unbestimmte Anzahl von Argumenten
+	// VarArgs sind Arrays und werden dann als Arrays verwendet.
 	public void methodVarArgs(String... strings) {
 		for (int i = 0; i < strings.length; i++) {
 			System.out.println(strings[i]);

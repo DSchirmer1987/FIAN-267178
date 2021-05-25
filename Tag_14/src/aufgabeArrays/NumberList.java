@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @author Schirmer, Daniel
  *
  */
-public class NumberList{
+public class NumberList<N extends Number>{
 	private Number[] numbers;
 	
 	/**
@@ -21,16 +21,16 @@ public class NumberList{
 	 * Adds a number at the end of the List
 	 * @param number The number to be added
 	 */
-	public void add(Number number) {
+	public void add(N number) {
 		if(this.numbers.length > 0) {
 			Number[] temp = this.numbers;
 			this.numbers = new Number[temp.length + 1];
 			for (int i = 0; i < temp.length; i++) {
 				this.numbers[i] = temp[i];
 			}
-			this.numbers[temp.length] = number;
+			this.numbers[temp.length] = (Number) number;
 		} else {
-			this.numbers = new Number[] {number};
+			this.numbers = new Number[] {(Number) number};
 		}
 	}
 	
@@ -39,12 +39,12 @@ public class NumberList{
 	 * @param number The number to be added
 	 * @param index The index at which should be added
 	 */
-	public void add(Number number, int index) {
+	public void add(N number, int index) {
 		Number[] temp = this.numbers;
 		this.numbers = new Number[temp.length + 1];
 		for (int i = 0; i <= index; i++) {
 			if(i == index) {
-				this.numbers[i] = number;
+				this.numbers[i] = (Number) number;
 			} else {
 				this.numbers[i] = temp[i];
 			}

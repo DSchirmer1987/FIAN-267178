@@ -5,10 +5,9 @@ import java.util.Scanner;
 public class Calculator {
 	int x, y;
 	
-	public Calculator() {
-		Scanner sc = new Scanner(System.in);
-		this.x = sc.nextInt();
-		this.y = sc.nextInt();
+	public Calculator(int x, int y) {
+		this.x = x;
+		this.y = y;
 	}
 	
 	public int calculateSum() {

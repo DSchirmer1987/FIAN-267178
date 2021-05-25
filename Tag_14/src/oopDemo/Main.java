@@ -13,6 +13,14 @@ public class Main {
 		PrintHelper.printLine();
 		varg.methodVarArgs("Hallo", "Welt", "Hallo");
 		
+		
+		int sum = calc.calculateSum();
+		
+		PrintHelper.printLine();
+		System.out.println("Summe = " + sum);
+		PrintHelper.printLine();
+		String zahl = String.format("Zahl %d", calc.x);
+		System.out.printf("Zahl %d + Zahl %d = %d", calc.x, calc.y, sum);
 
 		
 //		// Wie wird die summe Berechnet

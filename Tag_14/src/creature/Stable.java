@@ -8,4 +8,13 @@ public class Stable {
 			next = new Stable(apartments - 1);
 		}
 	}
+	
+	public void printStable() {
+		PrintHelper.printLine();
+		PrintHelper.printEmptyCell();
+		PrintHelper.printLine();
+		if(next != null) {
+			next.printStable();
+		}
+	}
 }

@@ -19,6 +19,12 @@ public class Main {
 			sum += numbers.get(i);
 		}
 		System.out.println(sum);
+		
+		sum = 0;
+		for(int zahl : numbers) {
+			sum += zahl;
+		}
+		System.out.println(sum);
 	}
 
 }

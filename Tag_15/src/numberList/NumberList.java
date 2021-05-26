@@ -1,13 +1,14 @@
 package numberList;
 
 import java.util.Arrays;
+import java.util.Iterator;
 
 /**
  * A List that takes numbers.
  * @author Schirmer, Daniel
  *
  */
-public class NumberList<N extends Number>{
+public class NumberList<N extends Number> implements Iterable<N>{
 	private Number[] numbers;
 	
 	/**
@@ -120,5 +121,23 @@ public class NumberList<N extends Number>{
 	 */
 	public String toString() {
 		return Arrays.toString(numbers);
+	}
+
+	@Override
+	public Iterator<N> iterator() {
+		
+		Iterator<N> it = new Iterator<N>() {
+			int currentIndex = 0;
+			@Override
+			public boolean hasNext() {
+				return currentIndex < numbers.length && numbers[currentIndex] != null;
+			}
+			@Override
+			public N next() {
+				return (N) numbers[currentIndex++];
+			}
+		};
+		
+		return it;
 	}
 }

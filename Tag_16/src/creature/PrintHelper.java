@@ -8,17 +8,33 @@ public class PrintHelper {
 	
 	// Helper methods to keep output free of redundancy
 	
-	public static void printLine() {
-		System.out.println("+----------------------------+");
+//	public static void printLine() {
+//		System.out.println("+----------------------------+");
+//	}
+	
+	public static String printLine() {
+		return String.format("+----------------------------+%n");
 	}
 	
-	public static void printEmptyLine() {
-		System.out.println("|                            |");
+//	public static void printEmptyLine() {
+//		System.out.println("|                            |");
+//	}
+	
+	public static String printEmptyLine() {
+		return String.format("|                            |%n");
 	}
 
-	public static void printEmptyCell() {
-		for (int i = 1; i < 6; i++)
-			printEmptyLine();
+//	public static void printEmptyCell() {
+//		for (int i = 1; i < 6; i++)
+//			printEmptyLine();
+//	}
+	
+	public static String printEmptyCell() {
+		String tmp = "";
+		for (int i = 1; i < 6; i++) {
+			tmp += printEmptyLine();
+		}
+		return tmp;
 	}
 	
 	// Wait for user input; 

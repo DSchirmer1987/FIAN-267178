@@ -33,73 +33,81 @@ public class Creature {
 		return feeded;
 	}
 
-	public void printCreature() {
-		PrintHelper.printLine();
+	public String printCreature() {
+		String tmp;
+		tmp = PrintHelper.printLine();
 		switch (this.getType()) {
 			case HEADY:
-				printHeady();
+				tmp += printHeady();
 				break;
 			case FOOTY:
-				printFooty();
+				tmp += printFooty();
 				break;
 			case TRUNKY:
-				printTrunky();
+				tmp += printTrunky();
 		}
-		PrintHelper.printLine();
+		tmp += PrintHelper.printLine();
+		return tmp;
 	}
 
-	private void printHeady() {
+	private String printHeady() {
+		String tmp = "";
 		if (hungry) {
-			System.out.println("|           ||||||           |");
-			System.out.println("|          |      |          |");
-			System.out.println("|          | @  @ |          |");
-			System.out.println("|          |      |          |");
-			System.out.println("|          | ,--, |          |");
-			System.out.println("|           \\____/           |");
+			tmp += ("|           ||||||           |" + System.lineSeparator());
+			tmp += ("|          |      |          |" + System.lineSeparator());
+			tmp += ("|          | @  @ |          |" + System.lineSeparator());
+			tmp += ("|          |      |          |" + System.lineSeparator());
+			tmp += ("|          | ,--, |          |" + System.lineSeparator());
+			tmp += ("|           \\____/           |" + System.lineSeparator());
 		} else {
-			System.out.println("|           ||||||           |");
-			System.out.println("|          |      |          |");
-			System.out.println("|         |  @  @  |         |");
-			System.out.println("|         |        |         |");
-			System.out.println("|         \\  `--´  /         |");
-			System.out.println("|          \\______/          |");
+			tmp += ("|           ||||||           |" + System.lineSeparator());
+			tmp += ("|          |      |          |" + System.lineSeparator());
+			tmp += ("|         |  @  @  |         |" + System.lineSeparator());
+			tmp += ("|         |        |         |" + System.lineSeparator());
+			tmp += ("|         \\  `--´  /         |" + System.lineSeparator());
+			tmp += ("|          \\______/          |" + System.lineSeparator());
 		}
+		return tmp;
 	}
 
-	private void printFooty() {
+	private String printFooty() {
+		String tmp = "";
 		if (hungry) {
-			System.out.println("|       *************        |");
-			System.out.println("|     **    @   @    **      |");
-			System.out.println("|   **     .-----.      **   |");
-			System.out.println("|  *       `-----´       *   |");
-			System.out.println("|   *********************    |");
-			System.out.println("|    _|  _|  _|_  |_  |_     |");
+			tmp += ("|       *************        |" + System.lineSeparator());
+			tmp += ("|     **    @   @    **      |" + System.lineSeparator());
+			tmp += ("|   **     .-----.      **   |" + System.lineSeparator());
+			tmp += ("|  *       `-----´       *   |" + System.lineSeparator());
+			tmp += ("|   *********************    |" + System.lineSeparator());
+			tmp += ("|    _|  _|  _|_  |_  |_     |" + System.lineSeparator());
 		} else {
-			System.out.println("|      ***************       |");
-			System.out.println("|   ***     @   @     ***    |");
-			System.out.println("|  *                     *   |");
-			System.out.println("|  *       `-----´       *   |");
-			System.out.println("|   *********************    |");
-			System.out.println("|    _|  _|  _|_  |_  |_     |");
+			tmp += ("|      ***************       |" + System.lineSeparator());
+			tmp += ("|   ***     @   @     ***    |" + System.lineSeparator());
+			tmp += ("|  *                     *   |" + System.lineSeparator());
+			tmp += ("|  *       `-----´       *   |" + System.lineSeparator());
+			tmp += ("|   *********************    |" + System.lineSeparator());
+			tmp += ("|    _|  _|  _|_  |_  |_     |" + System.lineSeparator());
 		}
+		return tmp;
 	}
 
-	private void printTrunky() {
+	private String printTrunky() {
+		String tmp = "";
 		if (hungry) {
-			System.out.println("|  @    @                    |");
-			System.out.println("|   \\___/                    |");
-			System.out.println("|   /   \\_________________   |");
-			System.out.println("|  ( ~~~                  \\  |");
-			System.out.println("|   \\_____________________/  |");
-			System.out.println("|                            |");
+			tmp += ("|  @    @                    |" + System.lineSeparator());
+			tmp += ("|   \\___/                    |" + System.lineSeparator());
+			tmp += ("|   /   \\_________________   |" + System.lineSeparator());
+			tmp += ("|  ( ~~~                  \\  |" + System.lineSeparator());
+			tmp += ("|   \\_____________________/  |" + System.lineSeparator());
+			tmp += ("|                            |" + System.lineSeparator());
 		} else {
-			System.out.println("|  @    @                    |");
-			System.out.println("|   \\___/                    |");
-			System.out.println("|   /   \\_________________   |");
-			System.out.println("|  ( °-°                  \\  |");
-			System.out.println("|   \\                     /  |");
-			System.out.println("|    \\___________________/   |");
+			tmp += ("|  @    @                    |" + System.lineSeparator());
+			tmp += ("|   \\___/                    |" + System.lineSeparator());
+			tmp += ("|   /   \\_________________   |" + System.lineSeparator());
+			tmp += ("|  ( °-°                  \\  |" + System.lineSeparator());
+			tmp += ("|   \\                     /  |" + System.lineSeparator());
+			tmp += ("|    \\___________________/   |" + System.lineSeparator());
 		}
+		return tmp;
 	}
 
 }

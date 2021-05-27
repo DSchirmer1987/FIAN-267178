@@ -27,16 +27,24 @@ public class Stable {
 		this.creature = creature;
 	}
 
-	public void printStable() {
+	public String printStable() {
+		String tmp = "";
 		if (this.creature != null) {
-			printStable(this.creature);
+			tmp += this.creature.printCreature();
 		} else {
-			PrintHelper.printLine();
-			PrintHelper.printEmptyCell();
-			PrintHelper.printLine();
+			tmp += PrintHelper.printLine();
+			tmp += PrintHelper.printEmptyCell();
+			tmp += PrintHelper.printLine();
 		}
-		if (next != null)
-			next.printStable();
+		if (next != null) {
+			tmp += next.printStable();
+		}
+		return tmp;
+	}
+	
+	@Override
+	public String toString() {
+		return this.printStable();
 	}
 
 	public void printStable(Creature creature) {

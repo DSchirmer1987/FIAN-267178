@@ -25,7 +25,7 @@ public class JFrameWindowListener {
 		
 //		frame.add(label);
 		frame.setVisible(true);
-		int temp;
+		int temp = 25;
 		if(temp >= 20) {
 			System.out.println("Eis essen!");
 		} else {

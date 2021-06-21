@@ -17,6 +17,7 @@ import java.awt.event.ActionListener;
 import javax.swing.JScrollPane;
 import javax.swing.JTextPane;
 import java.awt.Color;
+import net.miginfocom.swing.MigLayout;
 
 public class MyFrame extends JFrame {
 
@@ -57,12 +58,6 @@ public class MyFrame extends JFrame {
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
 		contentPane.add(lblNewLabel);
 		
-		JScrollPane scrollPane = new JScrollPane();
-		contentPane.add(scrollPane);
-		
-		JTextPane textPane = new JTextPane();
-		scrollPane.setViewportView(textPane);
-		
 		JButton btnNewButton = new JButton("New button");
 		btnNewButton.setAction(new SwingAction(btnNewButton.getText(), lblNewLabel));
 		btnNewButton.addMouseListener(new MyPopupMenuOpener());
@@ -73,5 +68,9 @@ public class MyFrame extends JFrame {
 		lblNewLabel_1.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel_1.setBackground(Color.MAGENTA);
 		contentPane.add(lblNewLabel_1);
+		
+		JPanel panel = new JPanel();
+		contentPane.add(panel);
+		panel.setLayout(new MigLayout("", "[]", "[]"));
 	}
 }

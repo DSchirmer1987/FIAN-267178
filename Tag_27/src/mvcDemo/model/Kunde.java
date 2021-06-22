@@ -40,9 +40,13 @@ public class Kunde {
 	public String getKundennummer() {
 		return this.kundennummer;
 	}
-
+	
 	public void setKundennummer(String kundennummer) {
 		this.kundennummer = kundennummer;
+	}
+	
+	public void pruefeBonitaet(int kontonummer) {
+		// To do
 	}
 
 }

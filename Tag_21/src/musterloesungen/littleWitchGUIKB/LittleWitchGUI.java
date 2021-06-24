@@ -40,14 +40,13 @@ public class LittleWitchGUI {
 
 		LittleWitchGUI lw = new LittleWitchGUI();
 		lw.los();
-
 	}
 
 	public void los() {
 		clock = 6;
 		files = new String[] { "src/witch2.jpg", "src/witch3.jpg", "src/witch4.jpg", "src/witch5.jpg", "src/witch6.jpg",
 				"src/witch7.jpg", "src/witch8.jpg" };
-		text = String.format("Morgens früh um " + clock);
+		text = String.format("Morgens frï¿½h um " + clock);
 		frame = new JFrame();
 		left = new JPanel();
 		left.setLayout(new BoxLayout(left, BoxLayout.Y_AXIS));
@@ -64,11 +63,11 @@ public class LittleWitchGUI {
 		label = new JLabel(new ImageIcon(image));
 		right.add(label);
 
-		// button erstellen und AL hinzufügen
+		// button erstellen und AL hinzufï¿½gen
 		button = new JButton("Klick mich");
 		button.addActionListener(new ButtonListener());
 
-		// Labels für das Gedicht hinzufügen
+		// Labels fï¿½r das Gedicht hinzufï¿½gen
 		oneL = new JLabel();
 		oneL.setText(text);
 		left.add(oneL);
@@ -97,7 +96,7 @@ public class LittleWitchGUI {
 		thirteenL = new JLabel();
 		left.add(thirteenL);
 
-		// Panels und Button dem Frame hinzufügen
+		// Panels und Button dem Frame hinzufï¿½gen
 		frame.getContentPane().add(BorderLayout.WEST, left);
 		frame.getContentPane().add(BorderLayout.EAST, right);
 		frame.getContentPane().add(BorderLayout.SOUTH, button);
@@ -119,7 +118,7 @@ public class LittleWitchGUI {
 			break;
 		case 7:
 			threeL.setText(text);
-			fourL.setText("schabt sie gelbe Rüben.");
+			fourL.setText("schabt sie gelbe Rï¿½ben.");
 			break;
 		case 8:
 			fiveL.setText(text);
@@ -131,27 +130,27 @@ public class LittleWitchGUI {
 			break;
 		case 10:
 			nineL.setText(text);
-			tenL.setText("hackt sie Holz und Spän'.");
+			tenL.setText("hackt sie Holz und Spï¿½n'.");
 			break;
 		case 11:
 			elevenL.setText("Feuert an um " + clock + ", \nkocht dann bis um "+(clock+1)+".");
 			break;
 		case 12:
-			twelfL.setText("Fröschebein und Krebs und Fisch.");
+			twelfL.setText("Frï¿½schebein und Krebs und Fisch.");
 			thirteenL.setText("Hurtig Kinder kommt zu Tisch.");
 			break;
 		}
 
 	}
 
-	// ActionListener für den Button
+	// ActionListener fï¿½r den Button
 	class ButtonListener implements ActionListener {
 
 		@Override
 		public void actionPerformed(ActionEvent e) {
 			setText();
 			clock++;
-			text = "Morgens früh um " + clock;
+			text = "Morgens frï¿½h um " + clock;
 			if(clock<14) {
 			BufferedImage newimage = null;
 			try {

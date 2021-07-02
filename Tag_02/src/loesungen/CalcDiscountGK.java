@@ -1,4 +1,4 @@
-package lösungen;
+package loesungenï¿½sungen;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ public class CalcDiscountGK {
 		Scanner scanner = new Scanner(System.in);
 		
 		// Eingabe
-		System.out.println("Bitte geben Sie die Stückzahl an: ");
+		System.out.println("Bitte geben Sie die Stï¿½ckzahl an: ");
 		number = scanner.nextFloat();
 		
 		System.out.println("Bitte geben Sie den Einzelpreis an: ");

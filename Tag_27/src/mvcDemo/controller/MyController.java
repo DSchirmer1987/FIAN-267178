@@ -9,13 +9,16 @@ import java.util.ArrayList;
 import javax.swing.JButton;
 import javax.swing.JMenu;
 import javax.swing.JMenuItem;
+import javax.swing.JPanel;
 import javax.swing.text.JTextComponent;
 
 import mvcDemo.model.Kunde;
 import mvcDemo.view.MainFrame;
+import mvcDemo.view.MainPanel;
 
 public class MyController implements ActionListener{
 	private MainFrame mainFrame;
+	private MainPanel mainPanel;
 	private Kunde kunde = new Kunde();
 	private ArrayList<JTextComponent> listOfJTextComponent = new ArrayList<>();
 	
@@ -35,6 +38,9 @@ public class MyController implements ActionListener{
 			// Rekursiver Aufruf an alle unterliegenden Componenten
 			getElements(inner);
 			
+			if(inner instanceof JPanel) {
+				
+			}
 			// Für alle Buttons
 			if(inner instanceof JButton) {
 				((JButton) inner).addActionListener(this);

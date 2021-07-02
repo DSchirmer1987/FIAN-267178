@@ -1,4 +1,4 @@
-package lösungen;
+package loesungenï¿½sungen;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ public class BMICalcBoehm {
 
 		System.out.println("Bitte geben Sie Ihr Gewicht in kg an:");
 		weight = sc.nextDouble();
-		System.out.println("Bitte geben Sie Ihre Größe in Metern an:");
+		System.out.println("Bitte geben Sie Ihre Grï¿½ï¿½e in Metern an:");
 		hight = sc.nextDouble();
 		System.out.println("Bitte geben Sie Ihr Alter in Jahren an:");
 		age = sc.nextInt();
@@ -30,7 +30,7 @@ public class BMICalcBoehm {
 
 		} else {
 
-			System.out.printf("Dein BMI ist %.2f. Da würd ich lieber mal zum Arzt gehen.", bmi);
+			System.out.printf("Dein BMI ist %.2f. Da wï¿½rd ich lieber mal zum Arzt gehen.", bmi);
 		}
 	}
 }

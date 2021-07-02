@@ -2,6 +2,7 @@ package mvcDemo.view;
 
 import javax.swing.JFrame;
 import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
 
 import mvcDemo.view.menu.MyMenuBar;
 
@@ -23,6 +24,8 @@ public class MainFrame extends JFrame {
 		this.setJMenuBar(mnbMain);
 
 		this.setVisible(true);
+		
+		((JMenuItem)this.getJMenuBar().getMenu(0).getMenuComponent(0)).addActionListener(null);
 	}
 
 	public MainFrame() {

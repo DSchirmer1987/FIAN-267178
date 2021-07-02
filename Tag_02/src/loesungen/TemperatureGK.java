@@ -1,4 +1,4 @@
-package lösungen;
+package loesungenï¿½sungen;
 
 import java.util.Scanner;
 
@@ -15,7 +15,7 @@ public class TemperatureGK {
 //		temperature = Integer.parseInt(args[0]);
 		temperature = scanner.nextInt();
 	
-		System.out.println("Bitte geben Sie ein, ob aktuell Niederschläge vorliegen (true, false):");
+		System.out.println("Bitte geben Sie ein, ob aktuell Niederschlï¿½ge vorliegen (true, false):");
 		
 		// Einlesen eines Wahrheitswertes von der Konsole
 //		 boolean precipitation = Boolean.parseBoolean(args[1]);
@@ -26,20 +26,20 @@ public class TemperatureGK {
 		
 		// System.out.println(precipitation + " -- " + precipitation == true);
 		
-		// ohne Niederschläge
+		// ohne Niederschlï¿½ge
 		if(precipitation == false) {
 			
 			if(temperature >= 20) {
 				System.out.println("Gehen wir schwimmen?");
 				}
 			if(temperature < 0) {
-				System.out.println("Lass uns am Lagerfeuer Glühwein trinken.");
+				System.out.println("Lass uns am Lagerfeuer Glï¿½hwein trinken.");
 				}
 			if(temperature >= 0 && temperature <= 19) {
 				System.out.println("Gehen wir spazieren?");
 				}
 		}
-		// mit Niederschlägen
+		// mit Niederschlï¿½gen
 		else {
 			
 			if(temperature >= 0) {

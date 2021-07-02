@@ -1,11 +1,11 @@
-package lösungen;
+package loesungenï¿½sungen;
 
 public class BoolKB {
 
 	public static void main(String[] args) {
 		boolean x = false, y = false;
 
-		// Überschrift und schleife die 20 Gleichheitszeichen schreibt
+		// ï¿½berschrift und schleife die 20 Gleichheitszeichen schreibt
 		System.out.println("Logische Operatoren:");
 		for (int i = 0; i < 20; i++) {
 			System.out.print("=");
@@ -13,7 +13,7 @@ public class BoolKB {
 		// Abstand zur Tabelle
 		System.out.println();
 
-		// Äußere for-Schleife, die die Änderung der Variablen kontrolliert
+		// ï¿½uï¿½ere for-Schleife, die die ï¿½nderung der Variablen kontrolliert
 		for (int i = 0; i < 4; i++) {
 			// innere for-Schleife, die die String Ausgabe kontrolliert
 			for (int j = 0; j < 3; j++) {
@@ -27,7 +27,7 @@ public class BoolKB {
 				}
 				System.out.println(booleanVariable);
 			}
-			//Veränderung der boolschen Werte
+			//Verï¿½nderung der boolschen Werte
 			System.out.println();
 			if (i == 0) {
 				y = true;

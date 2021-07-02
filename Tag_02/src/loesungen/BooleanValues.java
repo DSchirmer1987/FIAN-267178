@@ -1,4 +1,4 @@
-package lösungen;
+package loesungenï¿½sungen;
 
 public class BooleanValues {
 
@@ -7,7 +7,7 @@ public class BooleanValues {
 		trueAndFalse[0] = false;
 		trueAndFalse[1] = true;
 		
-		// Verschachtelte For-Schleifen, die über das Array iterieren
+		// Verschachtelte For-Schleifen, die ï¿½ber das Array iterieren
 		
 		for(int i = 0; i < 2; i++)
 		{

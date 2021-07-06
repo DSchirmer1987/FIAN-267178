@@ -8,6 +8,10 @@ public class CloneArray {
 
 	public static void main(String[] args) {
 		int a = 5;
+		Object[] array = new Object[5];
+		array[0] = "Hallo";
+		array[1] = 1;
+		array[2] = 1.59;
 		System.out.println(a);
 		// ab Java 10
 		var intB = 5;

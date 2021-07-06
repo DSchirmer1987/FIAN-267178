@@ -19,6 +19,8 @@ public class DemoMethods {
 		 * z.b. Methode schreibeFlaechenberechnungsformel() in der Klasse "Rechteck"
 		 * 
 		 */
+//		System.out.printf("Betrag ist: %.2f ", 1.95443);
+		System.out.println(String.format("Betrag ist: %.2f", 1.95443));
 		DemoMethods.methodOPar();
 		DemoMethods.methodMPar("Daniel");
 		DemoMethods.methodMPar("Daniel", new Date());

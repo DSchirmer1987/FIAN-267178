@@ -10,7 +10,7 @@ public class CounterCommand extends Thread{
 	
 	@Override
 	public void run() {
-		IntStream.range(0, 10000).forEach(System.out::println);
+		IntStream.range(0, 100).forEach(System.out::println);
 	}
 	
 }

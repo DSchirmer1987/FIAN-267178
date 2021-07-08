@@ -1,4 +1,4 @@
-package threads;
+package threads.runnables;
 
 import java.time.LocalDateTime;
 import java.util.stream.Stream;
@@ -14,6 +14,9 @@ public class RunnableDemo {
 		
 		Thread t2 = new Thread(new CounterCommand());
 		t2.start();
+		
+		Thread t3 = new Thread(new DateCommand());
+		t3.start();
 		
 	}
 

@@ -1,4 +1,4 @@
-package threads;
+package threads.runnables;
 
 import java.time.LocalDateTime;
 

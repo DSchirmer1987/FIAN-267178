@@ -16,6 +16,9 @@ public class SuspendDemo {
 		t1.suspend();
 		Thread.sleep(5000);
 		t1.resume();
+		t1.wait();
+		Thread.sleep(5000);
+		t1.notify();
 
 	}
 

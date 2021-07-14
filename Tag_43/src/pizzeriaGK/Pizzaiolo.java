@@ -52,10 +52,6 @@ public class Pizzaiolo extends Thread {
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-
-			
-
-
 		}
 	}
 }

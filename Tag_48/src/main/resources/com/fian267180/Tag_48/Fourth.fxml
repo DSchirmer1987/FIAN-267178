@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="25.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fian267180.Tag_48.FourthController">
+   <children>
+      <Label fx:id="lbl_eins" text="Hier kommt was!" />
+      <Button fx:id="btn_eins" mnemonicParsing="false" onAction="#switchText" text="Drück mich!" />
+      <Button fx:id="btn_zwei" mnemonicParsing="false" onAction="#switchText" text="Drück auch mich!" />
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>

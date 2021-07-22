@@ -9,7 +9,6 @@
  * CSS Reference:
  * https://www.w3schools.com/cssref/default.asp
  */
- 
 GridPane{
     -fx-background-color: lightgrey;
 }
@@ -29,6 +28,7 @@ GridPane{
 
 .label .text{
 	-fx-effect: dropshadow(two-pass-box , black, 4, 0.0 , 1, 1);
+	-fx-font-family: Digital-7;
 	-fx-font-size: 60;
 	-fx-fill: rgb(26, 30, 15);
 }
